@@ -1,6 +1,4 @@
 # Year_4_Project_II__Energy_Management_Control_for_Sustainable_and_Reliable_Microgrids (ACN data)
-
-# AMLS_assignment23_24-SN20007754 (MLS project)
 This repository is used to document the progress made for the AMLS assignment. 
 
 ## Project Overview
