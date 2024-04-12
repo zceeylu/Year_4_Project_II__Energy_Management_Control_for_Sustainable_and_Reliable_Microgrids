@@ -1,5 +1,5 @@
 # Year_4_Project_II__Energy_Management_Control_for_Sustainable_and_Reliable_Microgrids (ACN data)
-This repository is used to document the progress made for the AMLS assignment. 
+This repository is used to document the progress made for the 4th year Project - Energy Management Control for Sustainable and Reliable Microgrids.
 
 ## Project Overview
 Nowadays, the field of machine learning plays a pivotal role in addressing complex challenges in various domains. In this context, the Applied Machine Learning Systems (AMLS) assignment provides an opportunity to delve into real-world datasets and apply machine learning concepts learned in lectures and labs. In the code, I have implemented three ML models - SVM, KNN and RandomForest Models for Task A - Binary classification task and one ML models - CNN model, for Task B - Multi-class classification task. 
@@ -23,52 +23,73 @@ if you want to run seperate models, comment out the unwanted model section(s) in
 The repository is structured as follows:
 
 ```
-AMLS_23_24_SN20007754
+Year_4_Project_II__Energy_Management_Control_for_Sustainable_and_Reliable_Microgrids
 
-|__A
-|  |__DataReshape.py #contains DataReshape function
-|  |__function.py #defines three functions for training and predicting with different machine learning models: svm_classification, KNN_classification, and RandomForest_classification
-|  |__KNN.py #contains KNN model
-|  |__RandomForest.py #contains RandomForest Model
-|  |__SVM.py #contains SVM model
+|__final codes
+|  |__YALMIP-master #
+|  |__best_para.mlx #
+|  |__combined_hourly_csv.csv #
+|  |__csv conversion.py #
+|  |__EMS_controller_MPC_with_NN_validation_RMSE_final_final.mlx #
+|  |__hourly_data.pkl #
+|  |__MPC_predicted_horizon_choice #
+|  |__NN #
 
-|__B
-|  |__function.py #defines a function for training and evaluating a Convolutional Neural Network (CNN) using the Keras library: CNN_classifications 
-|  |__CNN.py #contains CNN model
+|__final results
+|  |__original_acn_data #
+|  |__Best Hyperparameters Hidden Units=12, Epochs=125, MiniBatchSize=128; Minimum Validation RMSE 1.105913 #
+   |  |__1 #
+   |  |__2 #
+   |  |__3 #
+   |  |__4 #
+   |  |__5 #
+   |  |__6 #
+   |  |__7 #
+   |  |__8 #
+   |  |__resultsORscreenshots #
+|  |__1.21rmse #
 
-|__Datasets #empty folder (should copy and paste the data here)
+|__acndata_sessions_1.json
+|  |__
 
-|__results_and_analysis
-|  |__Task_A #contains results for Task A
-      |  |__Confusion Matrix - SVM.pdf #contains Confusion Matrix for SVM Model
-      |  |__Learning Curve - SVM.pdf #contains Learning Curve for SVM Model
-      |  |__Confusion Matrix - RF.pdf #contains Confusion Matrix for RandomForest Model
-      |  |__Learning Curve - RF.pdf #contains Learning Curve for RandomForest Model
-      |  |__Confusion Matrix - KNN.pdf #contains Confusion Matrix for KNN Model
-      |  |__Learning Curve - KNN.pdf #contains Learning Curve for KNN Model
-|  |__Task_B #contains results for Task B
-      |  |__Confusion Matrix - CNN.pdf #contains Confusion Matrix for CNN Model
-      |  |__Training and Validation Accuracy Curve - CNN.pdf #contains Training and Validation Accuracy Curve for CNN Model
+|__acndata_sessions_2.json
+|  |__
 
-|__main.py #main file to run tasks (A and B)
+|__acndata_sessions_3.json
+|  |__
 
-|__README.md #instructions and notices for running the code
+|__conbine_3csv.py
+|  |__
 
-|__requirements.txt #requirements to be installed
+|__data_pkl.py
+|  |__
+
+|__hourly.py
+|  |__
+
+|__time_kwhdelivered.py
+|  |__
+
+|__README.md # Instructions and notices for running the code
+
+|__requirements.txt # Matlab version and toolbox to be installed 
 
 ```
 
 ## Requirements
-To install the required packages, run the following command:
-```
-pip install -r requirements.txt
-```
+The required matlab version is MATLAB R2023b,with deep learning toolbox installed.
 
 ## Acknowledgements
-The datasets used in this project are from the MedMNIST repository, which can be downloaded via the link: https://medmnist.com/, and are cited as follows:
+The datasets used in this project are from the ACN-Data repository, which can be downloaded via the link: https://ev.caltech.edu/dataset, and are cited as follows:
 ```
-Jiancheng Yang, Rui Shi, Donglai Wei, Zequan Liu, Lin Zhao, Bilian Ke, Hanspeter Pfister, Bingbing Ni. Yang, Jiancheng, et al. "MedMNIST v2-A large-scale lightweight benchmark for 2D and 3D biomedical image classification." Scientific Data, 2023.
-                            
-Jiancheng Yang, Rui Shi, Bingbing Ni. "MedMNIST Classification Decathlon: A Lightweight AutoML Benchmark for Medical Image Analysis". IEEE 18th International Symposium on Biomedical Imaging (ISBI), 2021.
+@inproceedings{lee_acndata_2019,
+  author = {Lee, Zachary J. and Li, Tongxin, and Low, Steven H.},
+  title = { {ACN}-{Data}: {Analysis} and {Applications} of an {Open} {EV} {Charging} {Dataset} },
+  booktitle = {Proceedings of the Tenth International Conference on Future Energy Systems},
+  series = {e-Energy '19},
+  month = jun,
+  year = {2019},
+  location = {Phoenix, Arizona}
+}
 ```
-The instructions and inspiration for this project can be found in the ELEC0134 module, led by Dr. Miguel Rodrigues at UCL.
+The instructions and inspiration for this project are by Dr. Francesca Boem at UCL.
