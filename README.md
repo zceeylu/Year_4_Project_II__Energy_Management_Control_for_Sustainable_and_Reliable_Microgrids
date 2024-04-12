@@ -2,13 +2,12 @@
 This repository is used to document the progress made for the 4th year Project - Energy Management Control for Sustainable and Reliable Microgrids.
 
 ## Project Overview
-Nowadays, the field of machine learning plays a pivotal role in addressing complex challenges in various domains. In this context, the Applied Machine Learning Systems (AMLS) assignment provides an opportunity to delve into real-world datasets and apply machine learning concepts learned in lectures and labs. In the code, I have implemented three ML models - SVM, KNN and RandomForest Models for Task A - Binary classification task and one ML models - CNN model, for Task B - Multi-class classification task. 
+Nowadays, 
 
-## Project Brief
-The project consists of two tasks:
-1. Task A - Binary classification task (using PneumoniaMNIST dataset). The objective is to classify an image onto "Normal" (no pneumonia) or "Pneumonia" (presence of pneumonia)
-2. Task B - Multi-class classification task (using PathMNIST dataset): The objective is to classify an image onto 9 different types of tissues.
-
+## Project/Code Brief
+The project consists of two parts:
+1. Deep learning model - 
+2. MPC (Model Predictive Contro) - 
 
 ## Running the Project
 Remember to replace the ```C:\Users\Lu34\OneDrive\Desktop\Year 4 Project II\Matlab simulation\acn_data\final codes\`` sections with the correct directory of every files (eg. combined_hourly_csv.csv) in your PC.
@@ -76,7 +75,7 @@ Year_4_Project_II__Energy_Management_Control_for_Sustainable_and_Reliable_Microg
 ```
 
 ## Requirements
-The required matlab version is MATLAB R2023b, with deep learning toolbox installed.
+The required matlab version is MATLAB R2023b, with deep learning toolbox installed, written in requirements.txt.
 
 ## Acknowledgements
 The datasets used in this project are from the ACN-Data repository, which can be downloaded via the link: https://ev.caltech.edu/dataset, and are cited as follows:
