@@ -76,7 +76,7 @@ Year_4_Project_II__Energy_Management_Control_for_Sustainable_and_Reliable_Microg
 ```
 
 ## Requirements
-The required matlab version is MATLAB R2023b,with deep learning toolbox installed.
+The required matlab version is MATLAB R2023b, with deep learning toolbox installed.
 
 ## Acknowledgements
 The datasets used in this project are from the ACN-Data repository, which can be downloaded via the link: https://ev.caltech.edu/dataset, and are cited as follows:
