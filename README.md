@@ -92,4 +92,4 @@ The datasets used in this project are from the ACN-Data repository, which can be
   location = {Phoenix, Arizona}
 }
 ```
-The instructions and inspiration for this project are by Dr. Francesca Boem at UCL.
+The instructions and inspiration for this project are from Dr. Francesca Boem at UCL.
