@@ -11,13 +11,12 @@ The project consists of two tasks:
 
 
 ## Running the Project
-When adding pneumoniamnist.npz and pathmnist.npz files to the folder "Datasets", remember to delete the empty file inside the "Datasets" folder.
-Afterwards, remember to replace the ```np.load()``` section with the correct directory of the datasets in your PC in every files when loading the datasets.
-To run the project, run the following command:
+Remember to replace the ```C:\Users\Lu34\OneDrive\Desktop\Year 4 Project II\Matlab simulation\acn_data\final codes\`` sections with the correct directory of every files (eg. combined_hourly_csv.csv) in your PC.
+To run the project, run the main code:
 ```
-python3 main.py
+EMS_controller_MPC_with_NN_validation_RMSE_final_final.mlx.
 ```
-if you want to run seperate models, comment out the unwanted model section(s) in the ```main.py``` file.
+Other codes are codes that helps the main code, or copied/derived from the main code, as stated below. 
 
 ## Project Structure and Role of each file
 The repository is structured as follows:
